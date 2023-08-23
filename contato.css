@@ -1,0 +1,40 @@
+.form {
+    width: 515px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2 {
+    color: whitesmoke;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.form label {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.form input {
+    height: 40px;
+}
+
+.form input, .form textarea {
+    background-color: whitesmoke;
+    border: 2px solid hsl(0, 0%, 0%);
+    border-radius: 12px;
+    padding: 1px;
+    margin-bottom: 24px;
+}
+
+.form input:focus, .form textarea:focus {
+    outline: 2px solid rgb(78, 78, 78);
+}
+
+.form button {
+    height: 40px;
+    background-color: hsl(0, 0%, 33%);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 12px;
+}
